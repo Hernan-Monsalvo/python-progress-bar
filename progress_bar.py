@@ -1,3 +1,10 @@
+import sys
+import math
+
+def foo():
+    # do something
+    pass
+
 def progress_bar(total, progress):
 
     pos =  math.floor(progress / total * 100)
@@ -10,6 +17,6 @@ def progress_bar(total, progress):
 
     for i in range(bar):
         if i > 0:
-            bar_str = replace_str_index(bar_str, i, "#")
+            bar_str = foo(bar_str, i, "■")
 
     sys.stdout.write("  {}".format(bar_str))
