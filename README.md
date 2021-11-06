@@ -6,7 +6,7 @@ Progress bar for python scripts, just import the function and pass the parameter
 example:
 
 calculating...
-50%  [■■■■■■■■■■■■■■■■■■■■■■■■■                         ] 7200/14400
+50%  [■■■■■■■■■■■■■■■■■■■■■■■■■_________________________] 7200/14400
 
 
 calculating...
